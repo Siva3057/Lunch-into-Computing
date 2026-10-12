@@ -1,0 +1,49 @@
+=== 1. LOAD AND CLEAN ===
+Raw rows: annual=323, monthly=3871
+Missing values: annual=0, monthly=0
+Duplicate keys: annual=0, monthly=0
+Excluded partial year: GCAG 2026 (7 of 12 months)
+Max |annual - mean(monthly)| = 0.0001 C (sanity check)
+1951-1980 mean in each source's own baseline: GCAG=-0.075, GISTEMP=-0.000
+All 'Rebased' values below are anomalies relative to the 1951-1980 mean.
+
+=== 2. ANALYSIS ===
+
+Annual anomaly statistics (C vs 1951-1980):
+ Source  Years  From   To  Mean  Median   Std    Min  MinYear   Max  MaxYear
+   GCAG    176  1850 2025 0.015  -0.095 0.396 -0.522     1904 1.244     2024
+GISTEMP    146  1880 2025 0.082  -0.031 0.402 -0.493     1909 1.286     2024
+
+10 warmest years, GISTEMP: 2024 (+1.29), 2025 (+1.19), 2023 (+1.17), 2016 (+1.01), 2020 (+1.01), 2019 (+0.98), 2017 (+0.92), 2015 (+0.90), 2022 (+0.89), 2018 (+0.85)
+
+10 warmest years, GCAG: 2024 (+1.24), 2023 (+1.19), 2025 (+1.12), 2016 (+1.00), 2020 (+0.99), 2019 (+0.96), 2017 (+0.91), 2015 (+0.89), 2022 (+0.88), 2021 (+0.84)
+Warmest month, GCAG: 2023-09 (+1.42 C)
+Warmest month, GISTEMP: 2023-09 (+1.48 C)
+
+Linear trend (OLS, C per decade) and correlation of anomaly with year:
+  GISTEMP  1880-2025: +0.083 C/decade, r = 0.876, n = 146
+  GISTEMP  1970-2025: +0.202 C/decade, r = 0.953, n = 56
+  GCAG     1850-2025: +0.066 C/decade, r = 0.847, n = 176
+  GCAG     1970-2025: +0.204 C/decade, r = 0.956, n = 56
+
+Decade means, GISTEMP (C vs 1951-1980):
+         Source   mean  count
+Decade                       
+1880    GISTEMP -0.217     10
+1890    GISTEMP -0.242     10
+1900    GISTEMP -0.320     10
+1910    GISTEMP -0.335     10
+1920    GISTEMP -0.240     10
+1930    GISTEMP -0.125     10
+1940    GISTEMP  0.043     10
+1950    GISTEMP -0.048     10
+1960    GISTEMP -0.030     10
+1970    GISTEMP  0.035     10
+1980    GISTEMP  0.247     10
+1990    GISTEMP  0.387     10
+2000    GISTEMP  0.589     10
+2010    GISTEMP  0.806     10
+2020    GISTEMP  1.067      6
+(2020s covers 6 complete years only.)
+
+GISTEMP vs GCAG annual anomalies, 1880-2025 (n=146): Pearson r = 0.994, mean difference (GCAG-GISTEMP) = -0.008 C, std of difference = 0.046 C
