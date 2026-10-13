@@ -1,0 +1,20 @@
+{
+  "naive_bayes": {
+    "accuracy": 0.6,
+    "precision_spam": 0.5555555555555556,
+    "recall_spam": 1.0,
+    "TP": 10,
+    "FP": 8,
+    "FN": 0,
+    "TN": 2
+  },
+  "keyword_rule": {
+    "accuracy": 0.6,
+    "precision_spam": 0.6,
+    "recall_spam": 0.6,
+    "TP": 6,
+    "FP": 4,
+    "FN": 4,
+    "TN": 6
+  }
+}
