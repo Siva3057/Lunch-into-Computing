@@ -1,0 +1,26 @@
+text,label,split
+Win a free prize now,1,train
+Call this number for free cash,1,train
+"Hi John, just checking in for our meeting",0,train
+Can we reschedule our lunch tomorrow?,0,train
+You have been selected to receive a free iPhone,1,train
+"Congratulations, you won a free vacation, claim now",1,test
+"Get cash fast, no credit check, call today",1,test
+You have been selected for an exclusive prize,1,test
+Free entry to win a brand new car,1,test
+Claim your reward today,1,test
+Urgent: verify your account to avoid suspension,1,test
+"Cheap meds, huge discount, buy now",1,test
+Earn money from home with guaranteed income,1,test
+Limited offer: free gift card waiting for you,1,test
+Click here to unlock your lottery winnings,1,test
+Lunch meeting at 1 PM?,0,test
+Please find the project report attached,0,test
+Window seat confirmed for your flight,0,test
+Can we talk about the budget tomorrow?,0,test
+"Happy birthday, hope you have a great day",0,test
+You have been selected for the interview panel on Friday,0,test
+The cashier will process your refund,0,test
+Reminder: team meeting moved to Thursday,0,test
+Thanks for your help with the presentation,0,test
+Winter schedule for the gym is attached,0,test
